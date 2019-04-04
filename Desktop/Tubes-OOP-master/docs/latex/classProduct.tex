@@ -1,0 +1,103 @@
+\hypertarget{classProduct}{}\doxysection{Product Class Reference}
+\label{classProduct}\index{Product@{Product}}
+
+
+\mbox{\hyperlink{classProduct}{Product}} adalah base class dari segala \mbox{\hyperlink{classFarmProduct}{Farm\+Product}} dan \mbox{\hyperlink{classSideProduct}{Side\+Product}}.  
+
+
+
+
+{\ttfamily \#include $<$Product.\+h$>$}
+
+Inheritance diagram for Product\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classProduct}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classProduct_a847c1d85e67ce387166a597579a55135}\label{classProduct_a847c1d85e67ce387166a597579a55135}} 
+\mbox{\hyperlink{classProduct_a847c1d85e67ce387166a597579a55135}{Product}} ()
+\begin{DoxyCompactList}\small\item\em Constructor \mbox{\hyperlink{classProduct}{Product}} default. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classProduct_a8befa76d00142c3fca908ba3e235eb15}{Product}} (int \+\_\+price)
+\begin{DoxyCompactList}\small\item\em Constructor \mbox{\hyperlink{classProduct}{Product}} dengan parameter harga \mbox{\hyperlink{classProduct}{Product}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classProduct_a3a4c4202b0513191b4308da15277122d}{sell}} ()
+\begin{DoxyCompactList}\small\item\em prosedur sell \mbox{\hyperlink{classProduct}{Product}} untuk menjual suatu produk menambah uang player sejumlah price$\ast$jumlah dan mendestruk produk \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classProduct_a91c7a988b880d6fd9b402463a8ea49be}\label{classProduct_a91c7a988b880d6fd9b402463a8ea49be}} 
+int \mbox{\hyperlink{classProduct_a91c7a988b880d6fd9b402463a8ea49be}{get\+Price}} () const
+\begin{DoxyCompactList}\small\item\em getter price \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classProduct_a42fa5d02fdc99de633ad8c3d2c5df334}{set\+Price}} (int \+\_\+price)
+\begin{DoxyCompactList}\small\item\em setter price \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classProduct_a06761b1d08d2b3fb032b1b9a13d90782}\label{classProduct_a06761b1d08d2b3fb032b1b9a13d90782}} 
+int {\bfseries price}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classProduct}{Product}} adalah base class dari segala \mbox{\hyperlink{classFarmProduct}{Farm\+Product}} dan \mbox{\hyperlink{classSideProduct}{Side\+Product}}. 
+
+\mbox{\hyperlink{classProduct}{Product}} memiliki atribut harga yang akan dipakai ketika produk dijual \begin{DoxyAuthor}{Author}
+Naufal Aditya D. 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classProduct_a8befa76d00142c3fca908ba3e235eb15}\label{classProduct_a8befa76d00142c3fca908ba3e235eb15}} 
+\index{Product@{Product}!Product@{Product}}
+\index{Product@{Product}!Product@{Product}}
+\doxysubsubsection{\texorpdfstring{Product()}{Product()}}
+{\footnotesize\ttfamily Product\+::\+Product (\begin{DoxyParamCaption}\item[{int}]{\+\_\+price }\end{DoxyParamCaption})}
+
+
+
+Constructor \mbox{\hyperlink{classProduct}{Product}} dengan parameter harga \mbox{\hyperlink{classProduct}{Product}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+price} & Harga \mbox{\hyperlink{classProduct}{Product}} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classProduct_a3a4c4202b0513191b4308da15277122d}\label{classProduct_a3a4c4202b0513191b4308da15277122d}} 
+\index{Product@{Product}!sell@{sell}}
+\index{sell@{sell}!Product@{Product}}
+\doxysubsubsection{\texorpdfstring{sell()}{sell()}}
+{\footnotesize\ttfamily Product\+::sell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+prosedur sell \mbox{\hyperlink{classProduct}{Product}} untuk menjual suatu produk menambah uang player sejumlah price$\ast$jumlah dan mendestruk produk 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+price} & Harga \mbox{\hyperlink{classProduct}{Product}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classProduct_a42fa5d02fdc99de633ad8c3d2c5df334}\label{classProduct_a42fa5d02fdc99de633ad8c3d2c5df334}} 
+\index{Product@{Product}!setPrice@{setPrice}}
+\index{setPrice@{setPrice}!Product@{Product}}
+\doxysubsubsection{\texorpdfstring{setPrice()}{setPrice()}}
+{\footnotesize\ttfamily Product\+::set\+Price (\begin{DoxyParamCaption}\item[{int}]{\+\_\+price }\end{DoxyParamCaption})}
+
+
+
+setter price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+price} & harga produk \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Product/Product.\+h\item 
+Product/Product.\+cpp\end{DoxyCompactItemize}
